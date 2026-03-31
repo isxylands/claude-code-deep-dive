@@ -1,3 +1,12 @@
+# Claude Code Deep Dive
+
+## Quick Links
+
+- PDF 下载 / PDF Report: [claude-code-deep-dive-xelatex.pdf](./claude-code-deep-dive-xelatex.pdf)
+- 源码目录 / Extracted Source Directory: [extracted-source/](./extracted-source/)
+
+---
+
 # Claude Code 源码深度研究报告（增强完整版）
 
 > 基于 `@anthropic-ai/claude-code` npm 包的 `cli.js.map` 还原源码后完成的系统性研究。本文是单文件、长篇、研究报告版，重点覆盖：整体架构、系统提示词、Agent 提示词、Skills、Plugins、Hooks、MCP、权限与工具调用机制，以及新增的 **全量 Prompt 提取框架分析** 与 **Agent 调度链深挖**。
